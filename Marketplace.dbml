@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="adsrush" Class="MarketplaceDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=adsrush.database.windows.net;Initial Catalog=adsrush;User ID=tamordy" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="adsrushConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_FreelancersBook_MarketPlace" Member="Table_FreelancersBook_MarketPlaces">
+    <Type Name="Table_FreelancersBook_MarketPlace">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="active" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iwill" Type="System.String" DbType="NVarChar(3000)" CanBeNull="true" />
+      <Column Name="longabout" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="rating" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="ratersnumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="subcategory" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="startingbudget" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="owneraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ownerusername" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="keywords" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="location" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="skills" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="themeimage" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sponsored" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="featured" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="popular" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="owneremail" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

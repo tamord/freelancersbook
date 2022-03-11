@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="adsrush" Class="jobsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=adsrush.database.windows.net;Initial Catalog=adsrush;User ID=tamordy;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="adsrushConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_FreelancersBook_JobsApply" Member="Table_FreelancersBook_JobsApplies">
+    <Type Name="Table_FreelancersBook_JobsApply">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usernameapply" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="aidapply" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="letter" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_FreelancersBook_JobsReject" Member="Table_FreelancersBook_JobsRejects">
+    <Type Name="Table_FreelancersBook_JobsReject">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usernamerejected" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="aidrejected" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_FreelancersBook_JobsHired" Member="Table_FreelancersBook_JobsHireds">
+    <Type Name="Table_FreelancersBook_JobsHired">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="usernamehired" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="aidhired" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_FreelancersBook_Jobs" Member="Table_FreelancersBook_Jobs">
+    <Type Name="Table_FreelancersBook_Job">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="active" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="shortdesc" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="longdesc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="subcategory" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="keywords" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="budget" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="numberoffreelancersneeded" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="duration" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="skillsrequired" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="location" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="tutorialurl" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="jobtype" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="paymenttype" Type="System.String" DbType="NVarChar(2500)" CanBeNull="true" />
+      <Column Name="owneraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ownerusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="profileimage" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sponsored" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="featured" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="popular" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="backup">
+  <DataContextMoniker Name="/backupDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d8c5127c-c4b9-4afd-bcf2-13e69eab2967" absoluteBounds="3.375, 1.25, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/backupDataContext/Table_Freelancer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a426acff-9340-4206-9d9c-7309391e1fd2" absoluteBounds="3.39, 1.71, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

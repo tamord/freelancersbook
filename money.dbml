@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="adsrush" Class="moneyDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=adsrush.database.windows.net;Initial Catalog=adsrush;User ID=tamordy;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="adsrushConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_FreelancersBook_JobsZoneSafeBoxes" Member="Table_FreelancersBook_JobsZoneSafeBoxes">
+    <Type Name="Table_FreelancersBook_JobsZoneSafeBox">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="safeboxinitialsum" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="safeboxsumleft" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="month" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="senderaid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="senderusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="senderfullname" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="recieveraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="recieverusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_FreelancersBook_JobsZoneReleased" Member="Table_FreelancersBook_JobsZoneReleaseds">
+    <Type Name="Table_FreelancersBook_JobsZoneReleased">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fundsreleased" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="month" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="recieveraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="recieverusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="senderaid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="senderusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_FreelancersBook_JobsZoneEarnings" Member="Table_FreelancersBook_JobsZoneEarnings">
+    <Type Name="Table_FreelancersBook_JobsZoneEarning">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="jobid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="earnings" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="month" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="recieveraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="recieverusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="senderaid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="senderusername" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

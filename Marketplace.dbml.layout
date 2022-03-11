@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Marketplace">
+  <DataContextMoniker Name="/MarketplaceDataContext" />
+  <nestedChildShapes>
+    <classShape Id="70c6f509-1feb-431f-8a4a-548d2d898106" absoluteBounds="4.75, 1.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/MarketplaceDataContext/Table_FreelancersBook_MarketPlace" />
+      <nestedChildShapes>
+        <elementListCompartment Id="135b2f3f-e728-4133-aa34-9ba547901c29" absoluteBounds="4.765, 1.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

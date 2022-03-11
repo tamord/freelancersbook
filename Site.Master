@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FreelancersBook.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> </title>
+
+
+    <style type="text/css">
+        .auto-style6 {
+            text-align: center;
+            font-family:Verdana;
+        }
+    </style>
+
+    <link rel=icon href="https://www.freelancersbook.com/jobfind.ico" type="image/x-icon">    
+
+        <!-- 3DSTATS.COM  CODE V4 SSL -->
+<!-- asynchronous code --> 
+<!-- Speed Up 10x load time -->
+<!-- AUTODETECT PAGE NAME & URL -->
+<div id='3dstats'></div>
+<script type="text/javascript"><!--
+var A="00000547";
+var P="DetectName";
+var U="DetectUrl";
+var Zone="0";
+var speed = document.createElement('script');
+speed.type = 'text/javascript';
+speed.async = true;
+speed.src ='https://www.3dstats.com/cgi-bin/3dstrackssla.cgi?usr='+A;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(speed, s);
+//--></script>
+<noscript>
+<img src="https://www.3dstats.com/cgi-bin/connect.cgi?usr=00000547Pauto" alt="3dstats analytics" border="0" height="0" width="0">
+</noscript>
+<!-- END-3DStats CODE V4 -->
+
+
+</head>
+
+    
+
+
+<body>
+
+
+
+
+    <form runat="server">
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+                <p class="auto-style6">&copy; <%: DateTime.Now.Year %> All Rights Reserved to Freelancers Book</footer>
+        </div>
+
+    </form>
+</body>
+</html>

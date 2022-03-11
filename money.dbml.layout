@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="money">
+  <DataContextMoniker Name="/moneyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d9e545f7-52c9-4385-948d-7b451cb96fc8" absoluteBounds="3.375, 0.5, 3.5, 3.1170068359375">
+      <DataClassMoniker Name="/moneyDataContext/Table_FreelancersBook_JobsZoneSafeBox" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc76aac7-8850-4c3a-bece-20f8d572b7d6" absoluteBounds="3.3900000000000006, 0.96, 3.4699999999999998, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a55b4cc-c2c2-4e34-848b-c54d111f643e" absoluteBounds="1, 1.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/moneyDataContext/Table_FreelancersBook_JobsZoneReleased" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30d0a932-7fbb-4f0a-b777-da86aa005a49" absoluteBounds="1.0150000000000001, 1.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="44da05d9-6e85-46b3-b2f7-4263e4f2e161" absoluteBounds="4.5, 3.875, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/moneyDataContext/Table_FreelancersBook_JobsZoneEarning" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7fdc87a-5af2-4f84-a12f-b859bec96b5e" absoluteBounds="4.515, 4.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
